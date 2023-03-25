@@ -5,9 +5,9 @@ using UnityEngine;
 public class CharacterManager : MonoBehaviour
 {
 
-    //list of materials
-    public List<Material> MaterialsList = new List<Material>();
     
+    public List<Material> MaterialsList = new List<Material>();//list of materials
+
     //private Variables
     MeshRenderer _my_renderer;
     Material _my_material;
